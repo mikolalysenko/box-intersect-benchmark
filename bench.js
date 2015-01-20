@@ -3,10 +3,10 @@
 module.exports = runBenchmark
 
 var distributions = {
-  uniform:   require('./generators/uniform'),
-  skewed:    require('./generators/skewed'),
-  sphere:    require('./generators/sphere'),
-  bunny:     require('./generators/bunny')
+  'uniform':   require('./generators/uniform'),
+  'skewed':    require('./generators/skewed'),
+  'sphere':    require('./generators/sphere'),
+  'bunny':     require('./generators/bunny')
 }
 
 var completeAlgs = {
