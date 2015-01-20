@@ -1,6 +1,6 @@
 'use strict'
 
-var intersect = require('../../../index')
+var intersect = require('box-intersect')
 
 exports.name = 'box-intersect'
 

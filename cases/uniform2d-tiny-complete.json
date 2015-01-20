@@ -1,0 +1,26 @@
+{
+  "name": "2D Uniform Complete Intersect (Tiny)",
+  "algorithms": [
+    "brute-force",
+    "box-intersect",
+    "rbush-incremental",
+    "rbush-bulk",
+    "box2d",
+    "p2-grid",
+    "p2-sweep",
+    "simple-quadtree",
+    "rtree",
+    "jsts-quadtree",
+    "jsts-strtree",
+    "lazykdtree"
+  ],
+  "distribution": {
+    "d": 2,
+    "type": "uniform"
+  },
+  "parameters": [[ "n" ]],
+  "cases": [10],
+  "ranges": [[[ 50, 500 ]]],
+  "numIters": 300,
+  "plot": true
+}
