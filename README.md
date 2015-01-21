@@ -43,24 +43,24 @@ Click on the images to get interactive plots
 
 #### Large (250000 boxes)
 
-[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_uniform_complete_intersect_large.svg">](https://plot.ly/~MikolaLysenko/88)
+[<img src="https://plot.ly/~MikolaLysenko/129/image.svg">](https://plot.ly/~MikolaLysenko/129)
 
 ### Circle
 
 #### Small (10000 boxes)
 
-[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_sphere_complete_intersect_small.svg">](https://plot.ly/~MikolaLysenko/89)
+[<img src="https://plot.ly/~MikolaLysenko/130/image.svg">](https://plot.ly/~MikolaLysenko/130)
 
 #### Large (250000 boxes)
 
-[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_sphere_complete_intersect_large.svg">](https://plot.ly/~MikolaLysenko/90)
+[<img src=" https://plot.ly/~MikolaLysenko/131/image.svg">](https://plot.ly/~MikolaLysenko/131)
 
 
-### Skewed
+### High aspect ratio
 
 #### Small (10000 boxes)
 
-https://plot.ly/~MikolaLysenko/89
+(<img src="https://plot.ly/~MikolaLysenko/132/image.svg">)[https://plot.ly/~MikolaLysenko/132]
 
 #### Large (100000 boxes)
 

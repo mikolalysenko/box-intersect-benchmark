@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "test": "node run cases/test.json",
-    "complete2d": "node run cases/uniform2d-tiny-complete.json && node run cases/uniform2d-small-complete.json && node run cases/uniform2d-medium-complete.json && node run cases/uniform2d-large-complete.json && node run cases/sphere2d-small-complete.json && node run cases/sphere2d-large-complete.json && node run cases/skewed2d-small-complete && node run cases/skewed2d-large-complete"
+    "complete2d": "node run cases/uniform2d-tiny-complete.json && node run cases/uniform2d-small-complete.json && node run cases/uniform2d-medium-complete.json && node run cases/uniform2d-large-complete.json && node run cases/sphere2d-small-complete.json && node run cases/sphere2d-large-complete.json && node run cases/skewed2d-small-complete.json && node run cases/skewed2d-large-complete.json"
   },
   "repository": {
     "type": "git",
