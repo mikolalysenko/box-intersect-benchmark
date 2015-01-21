@@ -35,7 +35,7 @@ Click on the images to get interactive plots
 
 #### Small (1500 boxes)
 
-[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_uniform_complete_intersect_small.svg">](https://plot.ly/~MikolaLysenko/77/_2d-uniform-complete-intersect-small/)
+[<img src="https://plot.ly/~MikolaLysenko/125/image.svg">](https://plot.ly/~MikolaLysenko/125)
 
 #### Medium (10000 boxes)
 
@@ -63,27 +63,27 @@ Click on the images to get interactive plots
 
 https://plot.ly/~MikolaLysenko/89
 
-#### Medium
+#### Large (100000 boxes)
 
 
+## 2D - Bipartite
 
-### Real data
+#### Small uniform (1500) vs Large uniform (50000)
 
-## 2D Bipartite
+#### Cirlce vs uniform
 
-### Uniform
+#### Skewed vs circle
 
-#### Small-Small (1500 boxes)
-
-#### Large-Large (100000 boxes)
-
-#### Small (1500) vs Large (50000)
+#### Skewed vs uniform
 
 
+## 3D - Complete
 
+### Complete
 
-## 3D
+### 
 
+## 3D - Bipartite
 
 
 # Running the benchmark
