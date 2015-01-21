@@ -151,12 +151,6 @@ If you want to make charts to go along with your data, you will need to create a
 }
 ```
 
-## In a browser
-
-If you want to run the benchmarks in your browser, you can just open up the in browser page here:
-
-* [In browser benchmark](https://mikolalysenko.github.io/box-intersect-benchmark)
-
 # Contributing
 
 Improvements to these benchmarks are always welcome.  
