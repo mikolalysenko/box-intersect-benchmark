@@ -1,18 +1,17 @@
 {
-  "name": "2D Uniform Complete Intersect (Large)",
+  "name": "2D Skewed Complete Intersect (Large)",
   "algorithms": [
     "box-intersect",
     "rbush-incremental",
-    "rbush-bulk",
-    "p2-grid"
+    "rbush-bulk"
   ],
   "distribution": {
     "d": 2,
-    "type": "uniform"
+    "type": "skewed"
   },
   "parameters": [[ "n" ]],
   "cases": [10],
-  "ranges": [[[ 10000, 250000 ]]],
-  "numIters": 30,
+  "ranges": [[[ 10000, 100000 ]]],
+  "numIters": 20,
   "plot": true
 }

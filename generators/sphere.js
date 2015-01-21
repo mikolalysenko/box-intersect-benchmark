@@ -1,6 +1,8 @@
 var sampleSphere = require('sphere-random')
 
-module.exports = function(n, d, options) {
+module.exports = function(options) {
+  var n = options.n|0
+  var d = options.d|0
   var result = []
   var n1d = Math.pow(n, 1-1/d)
   for(var i=0; i<n; ++i) {

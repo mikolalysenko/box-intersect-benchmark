@@ -1,0 +1,26 @@
+{
+  "name": "Test case",
+  "algorithms": [
+    "brute-force",
+    "box-intersect",
+    "rbush-incremental",
+    "rbush-bulk",
+    "box2d",
+    "p2-grid",
+    "p2-sweep",
+    "simple-quadtree",
+    "rtree",
+    "jsts-quadtree",
+    "jsts-strtree",
+    "lazykdtree"
+  ],
+  "distribution": {
+    "d": 2,
+    "type": "uniform"
+  },
+  "parameters": [[ "n" ]],
+  "cases": [5],
+  "ranges": [[[ 50, 100 ]]],
+  "numIters": 20,
+  "plot": true
+}

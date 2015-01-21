@@ -25,13 +25,13 @@ The goal of this benchmark is to compare different solutions for finding all int
 
 Click on the images to get interactive plots
 
-## 2D
+## 2D - Complete
 
-### Uniform/complete
+### Uniform
 
 #### Tiny (500 boxes)
 
-[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_uniform_complete_intersect_tiny.svg">](https://plot.ly/~MikolaLysenko/73)
+[<img src="https://plot.ly/~MikolaLysenko/124/image.svg">](https://plot.ly/~MikolaLysenko/124)
 
 #### Small (1500 boxes)
 
@@ -41,36 +41,45 @@ Click on the images to get interactive plots
 
 [<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_uniform_complete_intersect_medium.svg">](https://plot.ly/~MikolaLysenko/81/_2d-uniform-complete-intersect-medium/)
 
-#### Large (1000000 boxes)
+#### Large (250000 boxes)
 
-
-### Uniform/bipartite
-
-#### Small (1500 boxes)
-
-#### Large (100000 boxes)
-
-#### Small (1500) vs Large (50000)
-
+[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_uniform_complete_intersect_large.svg">](https://plot.ly/~MikolaLysenko/88)
 
 
 ### Circle
 
-#### Small
+#### Small (10000 boxes)
 
-#### Large
+[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_sphere_complete_intersect_small.svg">](https://plot.ly/~MikolaLysenko/89)
 
+#### Large (250000 boxes)
+
+[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_sphere_complete_intersect_large.svg">](https://plot.ly/~MikolaLysenko/90)
 
 
 ### Skewed
 
-#### Small
+#### Small (10000 boxes)
+
+https://plot.ly/~MikolaLysenko/89
 
 #### Medium
 
 
 
 ### Real data
+
+## 2D Bipartite
+
+### Uniform
+
+#### Small-Small (1500 boxes)
+
+#### Large-Large (100000 boxes)
+
+#### Small (1500) vs Large (50000)
+
+
 
 
 ## 3D

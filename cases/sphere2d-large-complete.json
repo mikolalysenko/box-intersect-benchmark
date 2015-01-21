@@ -1,18 +1,20 @@
 {
-  "name": "2D Uniform Complete Intersect (Large)",
+  "name": "2D Sphere Complete Intersect (Large)",
   "algorithms": [
     "box-intersect",
     "rbush-incremental",
     "rbush-bulk",
-    "p2-grid"
+    "p2-grid",
+    "jsts-quadtree",
+    "jsts-strtree"
   ],
   "distribution": {
     "d": 2,
-    "type": "uniform"
+    "type": "sphere"
   },
   "parameters": [[ "n" ]],
   "cases": [10],
-  "ranges": [[[ 10000, 250000 ]]],
+  "ranges": [[[ 5000, 50000 ]]],
   "numIters": 30,
   "plot": true
 }

@@ -1,0 +1,22 @@
+{
+  "name": "2D Sphere Complete Intersect (Small)",
+  "algorithms": [
+    "brute-force",
+    "box-intersect",
+    "rbush-incremental",
+    "rbush-bulk",
+    "p2-grid",
+    "p2-sweep",
+    "jsts-quadtree",
+    "jsts-strtree"
+  ],
+  "distribution": {
+    "d": 2,
+    "type": "sphere"
+  },
+  "parameters": [[ "n" ]],
+  "cases": [10],
+  "ranges": [[[ 1000, 10000 ]]],
+  "numIters": 100,
+  "plot": true
+}
