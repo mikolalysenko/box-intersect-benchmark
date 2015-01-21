@@ -35,7 +35,7 @@ Click on the images to get interactive plots
 
 #### Small (1500 boxes)
 
-[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_uniform_complete_intersect_small.svg"](https://plot.ly/~MikolaLysenko/77/_2d-uniform-complete-intersect-small/)
+[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_uniform_complete_intersect_small.svg">](https://plot.ly/~MikolaLysenko/77/_2d-uniform-complete-intersect-small/)
 
 #### Medium (10000 boxes)
 
