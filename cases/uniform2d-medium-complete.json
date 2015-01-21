@@ -1,5 +1,5 @@
 {
-  "name": "2D Uniform Complete Intersect (Small)",
+  "name": "2D Uniform Complete Intersect (Medium)",
   "algorithms": [
     "brute-force",
     "box-intersect",
@@ -7,8 +7,6 @@
     "rbush-bulk",
     "p2-grid",
     "p2-sweep",
-    "simple-quadtree",
-    "rtree",
     "jsts-quadtree",
     "jsts-strtree"
   ],
@@ -18,7 +16,7 @@
   },
   "parameters": [[ "n" ]],
   "cases": [10],
-  "ranges": [[[ 50, 1500 ]]],
-  "numIters": 500,
+  "ranges": [[[ 1000, 10000 ]]],
+  "numIters": 100,
   "plot": true
 }
