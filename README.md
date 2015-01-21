@@ -55,7 +55,6 @@ Click on the images to get interactive plots
 
 [<img src="https://plot.ly/~MikolaLysenko/131/image.svg">](https://plot.ly/~MikolaLysenko/131)
 
-
 ### High aspect ratio
 
 #### Small (10000 boxes)
@@ -70,12 +69,19 @@ Click on the images to get interactive plots
 
 #### Small uniform (1500) vs Large uniform (50000)
 
-#### Cirlce (20000) vs uniform (20000)
+[<img src="https://plot.ly/~MikolaLysenko/147/image.svg">](https://plot.ly/~MikolaLysenko/147)
+
+#### Circle (20000) vs uniform (20000)
+
+[<img src="https://plot.ly/~MikolaLysenko/148/image.svg">](https://plot.ly/~MikolaLysenko/148)
+
+#### High aspect ratio (20000) vs uniform (20000)
+
+[<img src="https://plot.ly/~MikolaLysenko/150/image.svg">](https://plot.ly/~MikolaLysenko/150)
 
 #### Skewed (5000) vs circle (20000)
 
-#### Skewed (5000) vs uniform (20000)
-
+[<img src="https://plot.ly/~MikolaLysenko/151/image.svg">](https://plot.ly/~MikolaLysenko/151)
 
 ## 3D - Complete
 

@@ -1,0 +1,26 @@
+{
+  "name": "Bipartite 2D uniform small (1500 boxes) vs large (50000 boxes)",
+  "algorithms": [
+    "brute-force",
+    "box-intersect",
+    "rbush",
+    "simple-quadtree",
+    "rtree",
+    "jsts-quadtree",
+    "jsts-strtree"
+  ],
+  "distribution": [
+    {
+      "type": "uniform",
+      "d": 2,
+      "n": 1500
+    },
+    {
+      "type": "uniform",
+      "d": 2,
+      "n": 50000
+    }
+  ],
+  "numIters": 25,
+  "plot": true
+}

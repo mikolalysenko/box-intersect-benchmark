@@ -1,0 +1,24 @@
+{
+  "name": "Bipartite skewed (20000 boxes) vs circle (20000 boxes)",
+  "algorithms": [
+    "box-intersect",
+    "rbush",
+    "rtree",
+    "jsts-quadtree",
+    "jsts-strtree"
+  ],
+  "distribution": [
+    {
+      "type": "skewed",
+      "d": 2,
+      "n": 20000
+    },
+    {
+      "type": "sphere",
+      "d": 2,
+      "n": 20000
+    }
+  ],
+  "numIters": 25,
+  "plot": true
+}

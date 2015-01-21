@@ -82,23 +82,25 @@ function makePlot(result, traces, options) {
 
 function plotBarChart(result) {
   var series = Object.keys(result.data)
-  var data = [{
-    x: [],
-    y: [],
-    color: [],
-    type: 'bar'
-  }]
+  var data = []
   series.forEach(function(name) {
-    data.x.push(name)
-    data.y.push(result.data[name][0])
-    data.color.push(nameToColor(name))
+    data.push({
+      x: [name],
+      y: [result.data[name][0]],
+      marker: {
+        color: nameToColor(name),
+      },
+      type: 'bar',
+      name: name
+    })
   })
   var options = {
-    filename: plotName(esult.name),
+    filename: plotName(result.name),
     fileopt: 'overwrite',
     layout: {
       title: result.name,
       autosize: true,
+      showlegend: false,
       yaxis: {
         title: "Average time (ms)",
         autorange: true

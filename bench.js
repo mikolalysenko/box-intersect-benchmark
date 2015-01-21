@@ -30,8 +30,11 @@ var completeAlgs = {
 var bipartiteAlgs = {
   'brute-force': require('./algorithms/brute-force/bipartite-fast'),
   'box-intersect': require('./algorithms/box-intersect/bipartite'),
-  'rbush': require('./algorithms/rbush/bipartite')
-  //TODO: jsts, lazykdtree, simple-quadtree, rtree
+  'rbush': require('./algorithms/rbush/bipartite'),
+  'simple-quadtree': require('./algorithms/simple-quadtree/bipartite'),
+  'rtree': require('./algorithms/rtree/bipartite'),
+  'jsts-quadtree': require('./algorithms/jsts/quadtree-bipartite'),
+  'jsts-strtree': require('./algorithms/jsts/strtree-bipartite')
 }
 
 var prettyNames = {
@@ -145,7 +148,7 @@ function runBenchmark(desc) {
 
   if(!sweepParam || sweepParam.length === 0) {
     //Bar chart
-    sweepCases = [1]
+    sweepCases = [0]
     sweepParam = [[]]
     sweepValues = [[]]
     var result = parameterSweep()
