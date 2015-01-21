@@ -53,7 +53,7 @@ Click on the images to get interactive plots
 
 #### Large (250000 boxes)
 
-[<img src=" https://plot.ly/~MikolaLysenko/131/image.svg">](https://plot.ly/~MikolaLysenko/131)
+[<img src="https://plot.ly/~MikolaLysenko/131/image.svg">](https://plot.ly/~MikolaLysenko/131)
 
 
 ### High aspect ratio
