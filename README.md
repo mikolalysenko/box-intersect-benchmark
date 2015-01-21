@@ -39,12 +39,11 @@ Click on the images to get interactive plots
 
 #### Medium (10000 boxes)
 
-[<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_uniform_complete_intersect_medium.svg">](https://plot.ly/~MikolaLysenko/81/_2d-uniform-complete-intersect-medium/)
+[<img src="https://plot.ly/~MikolaLysenko/127/image.svg">](https://plot.ly/~MikolaLysenko/127)
 
 #### Large (250000 boxes)
 
 [<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/2d_uniform_complete_intersect_large.svg">](https://plot.ly/~MikolaLysenko/88)
-
 
 ### Circle
 
@@ -70,20 +69,46 @@ https://plot.ly/~MikolaLysenko/89
 
 #### Small uniform (1500) vs Large uniform (50000)
 
-#### Cirlce vs uniform
+#### Cirlce (20000) vs uniform (20000)
 
-#### Skewed vs circle
+#### Skewed (5000) vs circle (20000)
 
-#### Skewed vs uniform
+#### Skewed (5000) vs uniform (20000)
 
 
 ## 3D - Complete
 
-### Complete
+### Uniform
 
-### 
+### Sphere
+
+### Skewed
+
+### Bunny
+
+### Dragon
+
+#### Low res
+
+#### High res
+
+
 
 ## 3D - Bipartite
+
+#### Small uniform vs large uniform
+
+#### Circle vs uniform
+
+#### Circle vs skew
+
+#### Skew vs uniform
+
+#### Bunny vs dragon
+
+#### Uniform vs bunny
+
+#### Skew vs bunny
 
 
 # Running the benchmark
@@ -114,6 +139,17 @@ You can run specific cases by specifying them on the command line.  For example,
 node run cases/uniform2d-tiny-complete.json
 ```
 
+If you want to run the whole suite at once, you can run one of the following npm scripts:
+
+```
+npm run complete2
+npm run bipartite2
+npm run complete3
+npm run bipartite3
+```
+
+These take some time to run so be patient!
+
 ### Setting up [plot.ly](https://plot.ly/)  (optional)
 
 If you want to make charts to go along with your data, you will need to create an account and get an API key with [plot.ly](https://plot.ly/).  Once you've done this, save your credentials to the file `plotly.json` in the root directory of the folder (note this is not tracked in git).  The contents of the JSON file should look something like:
@@ -137,7 +173,7 @@ Improvements to these benchmarks are always welcome.
 
 ## Adding more test data
 
-To create a new generator, you can create a module in the `generators/` folder and add a reference to it in the distributions object in the `bench.js` file.  You can also create new test cases by modifying the JSON configuration files in the `cases/` folder.
+To create a new generator, you can create a module in the `generators/` folder and add a reference to it in the distributions object in the `bench.js` file.  You can also create new test cases by modifying the JSON configuration files in the `cases/` folder.  The cases which are run
 
 ## Adding an algorithm
 
