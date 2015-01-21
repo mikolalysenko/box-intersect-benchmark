@@ -58,7 +58,7 @@ function nameToColor(name) {
   } else if(name === 'rbush-bulk') {
     return '#2bd'
   } else if(name === 'p2-grid') {
-    return '#cc'
+    return '#cc5'
   }
 
   var hash = hashStr(name) & 0xfff
