@@ -8,7 +8,7 @@
     "test": "node run cases/test.json",
     "complete2": "node run cases/uniform2d-tiny-complete.json && node run cases/uniform2d-small-complete.json && node run cases/uniform2d-medium-complete.json && node run cases/uniform2d-large-complete.json && node run cases/sphere2d-small-complete.json && node run cases/sphere2d-large-complete.json && node run cases/skewed2d-small-complete.json && node run cases/skewed2d-large-complete.json",
     "bipartite2": "node run cases/uniform-small-vs-large-2d.json && node run cases/circle-vs-uniform-2d.json && node run cases/skewed-vs-uniform-2d.json && node run cases/skewed-vs-circle-2d.json",
-    "complete3": "",
+    "complete3": "node run cases/uniform3d-complete.json && node run cases/sphere3d-complete.json && node run cases/skewed3d-complete.json && node run cases/bunny-complete.json",
     "bipartite3": ""
   },
   "repository": {

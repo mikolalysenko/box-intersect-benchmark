@@ -1,0 +1,17 @@
+{
+  "name": "3D Sphere Complete",
+  "algorithms": [
+    "brute-force",
+    "box-intersect",
+    "oimo-bvh"
+  ],
+  "distribution": {
+    "d": 3,
+    "type": "sphere"
+  },
+  "parameters": [[ "n" ]],
+  "cases": [10],
+  "ranges": [[[ 500, 2500 ]]],
+  "numIters": 100,
+  "plot": true
+}

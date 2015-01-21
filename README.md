@@ -85,38 +85,21 @@ Click on the images to get interactive plots
 
 ## 3D - Complete
 
-### Uniform
+#### Uniform
 
-### Sphere
+[<img src="https://plot.ly/~MikolaLysenko/152/image.svg">](https://plot.ly/~MikolaLysenko/152)
 
-### Skewed
+#### Sphere
 
-### Bunny
+[<img src="https://plot.ly/~MikolaLysenko/153/image.svg">](https://plot.ly/~MikolaLysenko/153)
 
-### Dragon
+#### Skewed
 
-#### Low res
+[<img src="https://plot.ly/~MikolaLysenko/154/image.svg">](https://plot.ly/~MikolaLysenko/154)
 
-#### High res
+#### Bunny
 
-
-
-## 3D - Bipartite
-
-#### Small uniform vs large uniform
-
-#### Circle vs uniform
-
-#### Circle vs skew
-
-#### Skew vs uniform
-
-#### Bunny vs dragon
-
-#### Uniform vs bunny
-
-#### Skew vs bunny
-
+[<img src="https://plot.ly/~MikolaLysenko/155/image.svg">](https://plot.ly/~MikolaLysenko/155)
 
 # Running the benchmark
 
