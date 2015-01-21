@@ -1,0 +1,18 @@
+{
+  "name": "2D Uniform Complete Intersect (Large)",
+  "algorithms": [
+    "box-intersect",
+    "rbush-incremental",
+    "rbush-bulk",
+    "p2-grid"
+  ],
+  "distribution": {
+    "d": 2,
+    "type": "uniform"
+  },
+  "parameters": [[ "n" ]],
+  "cases": [10],
+  "ranges": [[[ 10000, 500000 ]]],
+  "numIters": 30,
+  "plot": true
+}
