@@ -64,6 +64,7 @@ Click on the images to get interactive plots
 
 #### Large (100000 boxes)
 
+[<img src="https://plot.ly/~MikolaLysenko/139/image.svg"](https://plot.ly/~MikolaLysenko/139)
 
 ## 2D - Bipartite
 
