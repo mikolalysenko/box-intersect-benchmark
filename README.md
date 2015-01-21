@@ -10,7 +10,7 @@ The goal of this benchmark is to compare different solutions for finding all int
 
 | Library | Algorithms implemented | Dimensions | Bipartite |
 |:-------:|:----------------------:|:----------:|:---------:|
-| Brute force | Brute force | Any | ✓ |
+| None | Brute force | Any | ✓ |
 | [box-intersect](https://github.com/mikolalysenko/box-intersect) | Streaming segment trees | Any | ✓ |
 | [rbush](https://github.com/mourner/rbush) | BVH | 2 | ✓ |
 | [p2.js](https://github.com/schteppe/p2.js) | Brute force, sweep and prune, grid | 2 | |
@@ -21,15 +21,17 @@ The goal of this benchmark is to compare different solutions for finding all int
 | [box2d](http://box2d.org/) | Sweep and prune | 2 | |
 | [lazykdtree](https://github.com/0x0539/kdtree) | BVH | Any | ✓ |
 
-
 # Results
 
+Click on the images to get interactive plots
 
 ## 2D
 
 ### Uniform/complete
 
 #### Tiny (500 boxes)
+
+[<img src="2d_uniform_complete_intersect_tiny.svg">](https://plot.ly/~MikolaLysenko/73)
 
 #### Small (1500 boxes)
 
@@ -135,3 +137,6 @@ To add a new algorithm to the suite, there are 3 things you need to do:
 3.  Add your algorithm to the relevant test cases.
 
 You can run your test cases using the `run.js` command.
+
+# License
+(c) 2015 Mikola Lysenko. MIT License
