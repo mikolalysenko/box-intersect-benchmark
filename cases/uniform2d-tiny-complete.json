@@ -21,6 +21,6 @@
   "parameters": [[ "n" ]],
   "cases": [10],
   "ranges": [[[ 50, 500 ]]],
-  "numIters": 300,
+  "numIters": 500,
   "plot": true
 }

@@ -2,9 +2,9 @@
 
 The goal of this benchmark is to compare different solutions for finding all intersections amongst a set of boxes.  An overview of this problem and this procedure can be found in the following blog posts:
 
-* Collision detection (part 1)
-* Collision detection (part 2)
-* Collision detection (part 3)
+* [Collision detection (part 1)](http://0fps.net/2015/01/07/collision-detection-part-1/)
+* [Collision detection (part 2)](http://0fps.net/2015/01/18/collision-detection-part-2/)
+* Collision detection (part 3) **NOT YET PUBLISHED**
 
 ### Libraries surveyed
 
@@ -19,17 +19,11 @@ The goal of this benchmark is to compare different solutions for finding all int
 | [simple-quadtree](https://github.com/asaarinen/qtree) | Hierarchical grid | 2 | ✓ |
 | [oimo](https://github.com/lo-th/Oimo.js/) | Brute force, BVH, sweep and prune | 3 | |
 | [box2d](http://box2d.org/) | Sweep and prune | 2 | |
-| lazykdtree | BVH | Any | ✓ |
+| [lazykdtree](https://github.com/0x0539/kdtree) | BVH | Any | ✓ |
 
-### Data sets
-
-* Uniform distribution
-* Spheres
-* Skewed / high aspect ratio boxes
-* Stanford bunny
-* TODO:  Add more real examples
 
 # Results
+
 
 ## 2D
 
@@ -81,9 +75,50 @@ The goal of this benchmark is to compare different solutions for finding all int
 
 ## In node.js/iojs
 
+First, you will need to have [npm](https://www.npmjs.com/) installed and [git](http://git-scm.com/).  Clone this repo, go into the directory where it is located and then type:
+
+```
+npm install
+```
+
+To pull in all the files locally.  If you have node.js installed, you can then do,
+
+```
+node run
+```
+
+Or if you are using iojs,
+
+```
+iojs run
+```
+
+You can run specific cases by specifying them on the command line.  For example, to run the tiny benchmark do:
+
+```
+node run cases/uniform2d-tiny-complete.json
+```
+
+### Setting up [plot.ly](https://plot.ly/)  (optional)
+
+If you want to make charts to go along with your data, you will need to create an account and get an API key with [plot.ly](https://plot.ly/).  Once you've done this, save your credentials to the file `plotly.json` in the root directory of the folder (note this is not tracked in git).  The contents of the JSON file should look something like:
+
+```javascript
+{
+  "username": "Node.js-Demo-Account",
+  "key": "dvlqkmw0zm"
+}
+```
+
 ## In a browser
 
+If you want to run the benchmarks in your browser, you can just open up the in browser page here:
+
+* [In browser benchmark](https://mikolalysenko.github.io/box-intersect-benchmark)
+
 # Contributing
+
+Improvements to these benchmarks are always welcome.  
 
 ## Adding more test data
 
