@@ -60,7 +60,7 @@ Click on the images to get interactive plots
 
 #### Small (10000 boxes)
 
-(<img src="https://plot.ly/~MikolaLysenko/132/image.svg">)[https://plot.ly/~MikolaLysenko/132]
+[<img src="https://plot.ly/~MikolaLysenko/132/image.svg">](https://plot.ly/~MikolaLysenko/132)
 
 #### Large (100000 boxes)
 
