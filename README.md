@@ -23,7 +23,7 @@ The goal of this benchmark is to compare different solutions for finding all int
 
 # Results
 
-Click on the images to get interactive plots
+Figures courtesy of [plot.ly](http://plot.ly)! Click on the images to get interactive plots
 
 ## 2D - Complete
 
