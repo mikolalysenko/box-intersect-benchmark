@@ -29,6 +29,8 @@ Figures courtesy of [plot.ly](http://plot.ly)! Click on the images to get intera
 
 ### Uniform
 
+<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/uniform.png">
+
 #### Tiny (500 boxes)
 
 [<img src="https://plot.ly/~MikolaLysenko/124/image.svg">](https://plot.ly/~MikolaLysenko/124)
@@ -47,6 +49,8 @@ Figures courtesy of [plot.ly](http://plot.ly)! Click on the images to get intera
 
 ### Circle
 
+<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/sphere.png">
+
 #### Small (10000 boxes)
 
 [<img src="https://plot.ly/~MikolaLysenko/130/image.svg">](https://plot.ly/~MikolaLysenko/130)
@@ -56,6 +60,8 @@ Figures courtesy of [plot.ly](http://plot.ly)! Click on the images to get intera
 [<img src="https://plot.ly/~MikolaLysenko/131/image.svg">](https://plot.ly/~MikolaLysenko/131)
 
 ### High aspect ratio
+
+<img src="https://mikolalysenko.github.io/box-intersect-benchmark/images/skewed.png">
 
 #### Small (10000 boxes)
 
