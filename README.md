@@ -55,7 +55,7 @@ Figures courtesy of [plot.ly](http://plot.ly)! Click on the images to get intera
 
 [<img src="https://plot.ly/~MikolaLysenko/130/image.svg">](https://plot.ly/~MikolaLysenko/130)
 
-#### Large (250000 boxes)
+#### Large (50000 boxes)
 
 [<img src="https://plot.ly/~MikolaLysenko/131/image.svg">](https://plot.ly/~MikolaLysenko/131)
 
