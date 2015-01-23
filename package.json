@@ -26,6 +26,7 @@
     "bunny": "^1.0.1",
     "canvas-browserify": "^1.1.1",
     "jsts": "^0.15.0",
+    "lazykdtree": "0.0.0-0",
     "matter-js": "^0.8.0",
     "murmurhash-js": "^1.0.0",
     "p2": "^0.6.0",
