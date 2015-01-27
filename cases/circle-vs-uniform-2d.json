@@ -1,6 +1,7 @@
 {
   "name": "Bipartite circle (20000 boxes) vs uniform (20000 boxes)",
   "algorithms": [
+    "boxtree",
     "box-intersect",
     "rbush",
     "rtree",

@@ -2,6 +2,7 @@
   "name": "Bipartite 2D uniform small (1500 boxes) vs large (50000 boxes)",
   "algorithms": [
     "brute-force",
+    "boxtree",
     "box-intersect",
     "rbush",
     "simple-quadtree",
