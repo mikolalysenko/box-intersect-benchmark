@@ -1,6 +1,7 @@
 {
   "name": "Bipartite box intersect performance",
   "algorithms": [
+    "boxtree",
     "box-intersect"
   ],
   "distribution": [

@@ -2,6 +2,7 @@
   "name": "Test case",
   "algorithms": [
     "brute-force",
+    "boxtree",
     "box-intersect",
     "rbush-incremental",
     "rbush-bulk",

@@ -2,6 +2,7 @@
   "name": "2D Skewed Complete Intersect (Large)",
   "algorithms": [
     "box-intersect",
+    "boxtree",
     "rbush-incremental",
     "rbush-bulk"
   ],

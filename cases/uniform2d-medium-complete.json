@@ -2,6 +2,7 @@
   "name": "2D Uniform Complete Intersect (Medium)",
   "algorithms": [
     "brute-force",
+    "boxtree",
     "box-intersect",
     "rbush-incremental",
     "rbush-bulk",

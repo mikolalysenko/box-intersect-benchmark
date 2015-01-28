@@ -1,6 +1,7 @@
 {
   "name": "2D Uniform Complete Intersect (Large)",
   "algorithms": [
+    "boxtree",
     "box-intersect",
     "rbush-incremental",
     "rbush-bulk",

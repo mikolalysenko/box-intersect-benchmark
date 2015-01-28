@@ -3,6 +3,7 @@
   "algorithms": [
     "brute-force",
     "box-intersect",
+    "boxtree",
     "rbush-incremental",
     "rbush-bulk",
     "p2-grid",

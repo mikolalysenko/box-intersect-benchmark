@@ -2,6 +2,7 @@
   "name": "2D Uniform Complete Intersect (Tiny)",
   "algorithms": [
     "brute-force",
+    "boxtree",
     "box-intersect",
     "rbush-incremental",
     "rbush-bulk",
