@@ -12,7 +12,7 @@ exports.prepare = function(boxes) {
 }
 
 exports.run     = function(red, blue) {
-  var boxTree = BoxTree.create(false);
+  var boxTree = BoxTree.create(false); // passing 'true' would use a much slower building strategy
   var nodes, queries;
   if (red.length > blue.length)
   {

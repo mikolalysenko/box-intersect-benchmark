@@ -12,7 +12,7 @@ exports.prepare = function(boxes) {
 }
 
 exports.run = function(nodes) {
-  var boxTree = BoxTree.create(false);
+  var boxTree = BoxTree.create(false); // passing 'true' would use a much slower building strategy
   var n = nodes.length
   for(var i=0; i<n; ++i) {
       var node = nodes[i];
