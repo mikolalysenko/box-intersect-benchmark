@@ -2,6 +2,7 @@
   "name": "Bipartite skewed (20000 boxes) vs circle (20000 boxes)",
   "algorithms": [
     "box-intersect",
+    "boxtree",
     "rbush",
     "rtree",
     "jsts-quadtree",
