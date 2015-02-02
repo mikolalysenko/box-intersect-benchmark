@@ -343,9 +343,8 @@ BoxTree.prototype.sortNodes = function (nodes) {
 
     var nthElement = this.nthElement;
     var reverse = false;
-    var sortByX = true;
 
-    function sortNodesRecursive(nodes, startIndex, endIndex) {
+    function sortNodesRecursive(nodes, startIndex, endIndex, sortByX) {
         /* tslint:disable:no-bitwise */
         var splitNodeIndex = ((startIndex + endIndex) >> 1);
 
@@ -365,18 +364,17 @@ BoxTree.prototype.sortNodes = function (nodes) {
         }
 
         reverse = !reverse;
-        sortByX = !sortByX;
 
         if ((startIndex + numNodesLeaf) < splitNodeIndex) {
-            sortNodesRecursive(nodes, startIndex, splitNodeIndex);
+            sortNodesRecursive(nodes, startIndex, splitNodeIndex, !sortByX);
         }
 
         if ((splitNodeIndex + numNodesLeaf) < endIndex) {
-            sortNodesRecursive(nodes, splitNodeIndex, endIndex);
+            sortNodesRecursive(nodes, splitNodeIndex, endIndex, !sortByX);
         }
     }
 
-    sortNodesRecursive(nodes, 0, numNodes);
+    sortNodesRecursive(nodes, 0, numNodes, true);
 };
 
 BoxTree.prototype.sortNodesHighQuality = function (nodes) {
