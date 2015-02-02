@@ -3,6 +3,7 @@
   "algorithms": [
     "brute-force",
     "box-intersect",
+    "aabbtree",
     "oimo-bvh"
   ],
   "distribution": {

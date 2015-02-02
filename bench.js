@@ -25,7 +25,8 @@ var completeAlgs = {
   'rtree': require('./algorithms/rtree/complete'),
   'jsts-quadtree': require('./algorithms/jsts/quadtree'),
   'jsts-strtree': require('./algorithms/jsts/strtree'),
-  'boxtree': require('./algorithms/boxtree/complete')
+  'boxtree': require('./algorithms/boxtree/complete'),
+  'aabbtree': require('./algorithms/aabbtree/complete')
 }
 
 var bipartiteAlgs = {
@@ -36,7 +37,8 @@ var bipartiteAlgs = {
   'rtree': require('./algorithms/rtree/bipartite'),
   'jsts-quadtree': require('./algorithms/jsts/quadtree-bipartite'),
   'jsts-strtree': require('./algorithms/jsts/strtree-bipartite'),
-  'boxtree': require('./algorithms/boxtree/bipartite')
+  'boxtree': require('./algorithms/boxtree/bipartite'),
+  'aabbtree': require('./algorithms/aabbtree/bipartite')
 }
 
 var prettyNames = {
